@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(196, 0, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* container */
+.container{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: flex-end;
+    padding: 5px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+/* menu */
+.menu{
+    list-style: none;
+    display: flex;
+   gap: 20px;
+}
+.menu li{
+    padding: 10px;
+    position: relative;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu li a:hover{
+    background-color: rgb(255, 73, 164);
+    width: 100%;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 5px;
+}
+/* logo */
+.logo{
+    margin-right: auto;
+   
+}
+.logo img{
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+.banner img{
+    width: 110%;
+    margin-top: ;
+}
+.submenu{
+    top: 100%;
+    left: 0;
+    background-color: rgb(250, 237, 0);
+    list-style: none;
+    box-shadow:  0 4px 8px rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 200px;
+    display: none;
+    position: absolute;
+
+}
+.menu li:hover .submenu{
+    display: block;
+}
+/* categories */
+.categories{
+    display: flex;
+    width: 100%;
+    gap: 25px;
+    align-items: center;
+}
+.categories .card{
+    width: 200px;
+    height: 150px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 25px;
+    border-radius: 10px;
+}
+.categories .card img{
+    width: 100px;
+    height: 100px;
+   margin-left: 25px;
+}
+.categories .card p{
+    text-align: center;
+}
+/* product */
+.product{
+    display: flex;
+    width: 200px;
+    gap: 25px;
+    margin-top: 10px;
+}
+.product .card{
+    width: 200%;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    border-radius: 10px;
+}
+.product .card img{
+    width: 200px;
+    height: 100px;
+    margin-left: 25px;
+}
+.card h1{
+    text-align: center;
+}
+.card h2{
+    text-align: center;
+    color: rgb(255, 0, 166);
+}
+.card h3{
+    text-align: center;
+}
+.card li{
+    color: rgb(242, 255, 0);
+}
+button{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(242, 255, 3);
+    color: blue;
+    border: none;
+}
